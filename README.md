@@ -10,13 +10,16 @@
 Bitcoin chart for the terminal as command line util
 
 ### Requirements
- * node 8.0 or higher (need fancy syntax features thats why 8+)
- * npm or yarn
+* node 8.0 or higher (need fancy syntax features thats why 8+)
+* npm or yarn
 
 ### Usage
 
 ```bash
 # install
+npm install bitcoin-chart-cli -g
+
+# (alternative) install with yarn
 yarn global add bitcoin-chart-cli
 
 # run default
@@ -40,6 +43,7 @@ bitcoin-chart-cli --help
     -w, --width <n>   max terminal chart width
     -h, --height <n>  max terminal chart height
     -e, --ethereum    show ethereum chart instead of bitoin
+    -z, --zcash       show zcash chart instead of bitoin
     -l, --litecoin    show litecoin chart instead of bitoin
     -r, --ripple      show ripple chart instead of bitoin
     --disable-legend  disable legend text
