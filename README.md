@@ -16,6 +16,8 @@ Bitcoin chart for the terminal as command line util
 ### Usage
 
 ```bash
+# dependencies
+sudo apt-get install nodejs-legacy
 # install
 npm install bitcoin-chart-cli -g
 
